@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #202124;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+  }
+  
+  h1{
+    color:red;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .link-cabecalho {
+    color: #000000de;
+    font-size: 13px;
+  }
+  
+  .logo-google {
+    height: 92px;
+  }
+  
+  .caixa-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+  }
+  .caixa-icone:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 50%;
+  }
+
+  .caixa-icones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .input-pesquisa {
+    width: 100%;
+    height: 22px;
+    border: none;
+    outline: none;
+  }
+
+  .caixa-input {
+    width: 583px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+  }
+
+  .caixa-input:hover,
+  .caixa-input:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: transparent;
+ }
+
+  
+  .icone-input {
+    width: 20px;
+    min-width: 20px;
+    fill: #9aa0a6;
+  }
+  
+  .icone-teclado {
+    width: 19px;
+    cursor: pointer;
+  }
+  
+  .icone-colorido {
+    width: 24px;
+    cursor: pointer;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding: 6px 14px;
+  }
+  
+  .botao-entrar {
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+  }
+
+  .caixa-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+  }
+
+  .caixa-rodape--borda {
+    border-bottom: 1px solid #dadce0;
+  }
+
+  .caixa-links {
+    display: flex;
+    gap: 30px;
+  }
+
+  .botao {
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .botao--entrar:hover {
+    background-color: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
+      0 1px 2px 0 rgba(60, 64, 67, 0.3);
+    border-color: transparent;
+    text-decoration: none;
+  }
+  
+  .botao--entrar {
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: #ffffff;
+  }
+
+  .botao--entrar:hover {
+    background-color: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
+      0 1px 2px 0 rgba(60, 64, 67, 0.3);
+    text-decoration: none;
+  }
+
+  .caixa-botoes{
+    display: flex;
+    gap: 8px;
+  }
+
+  .caixa-disponibilizado {
+    color: #4d5156;
+    font-size: 13px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10vh;
+  }
+  
+  .link-disponibilizado {
+    color: #1a0dab;
+  }
+  
+  
+  footer{
+    background-color: #f2f2f2;
+  }
