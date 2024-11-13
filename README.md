@@ -5,6 +5,8 @@
 
 Bem-vindo ao repositório do projeto **Google Clone**. Este projeto é uma implementação de front-end que replica a interface principal do Google, incluindo o cabeçalho, a barra de pesquisa e o rodapé com links.
 
+
+- `Acesse o projeto aqui`: **[Google Clone](https://google-clone-ashen-pi.vercel.app/)**
 ---
 
 ## Índice
