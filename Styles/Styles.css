@@ -1,74 +1,91 @@
-*{
+/* Reset de estilos e configurações globais */
+* {
     margin: 0;
     padding: 0;
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     color: #202124;
-  }
+}
 
-  body {
+/* Corpo da página */
+body {
     height: 100vh;
     display: flex;
     flex-flow: column;
-  }
+}
 
-  main {
+/* Cabeçalho */
+header {
     display: flex;
-    flex-flow: column;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-    height: 100%;
-  }
-  
-  h1{
-    color:red;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 6px 14px;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .link-cabecalho {
+/* Links do cabeçalho */
+.link-cabecalho {
     color: #000000de;
     font-size: 13px;
-  }
-  
-  .logo-google {
-    height: 92px;
-  }
-  
-  .caixa-icone {
+}
+
+/* Ícone de aplicativos do Google */
+.caixa-icone {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 48px;
     height: 48px;
     cursor: pointer;
-  }
-  .caixa-icone:hover {
+}
+
+.caixa-icone:hover {
     background-color: rgba(60, 64, 67, 0.08);
     border-radius: 50%;
-  }
+}
 
-  .caixa-icones {
+/* Botão 'Entrar' */
+.botao {
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.botao--entrar {
+    font-family: 'Google Sans', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: #ffffff;
+}
+
+.botao--entrar:hover {
+    background-color: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
+                0 1px 2px 0 rgba(60, 64, 67, 0.3);
+    text-decoration: none;
+    border-color: transparent;
+}
+
+/* Elemento principal */
+main {
     display: flex;
+    flex-flow: column;
     align-items: center;
-    gap: 16px;
-  }
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}
 
-  .input-pesquisa {
-    width: 100%;
-    height: 22px;
-    border: none;
-    outline: none;
-  }
+/* Logo do Google */
+.logo-google {
+    height: 92px;
+}
 
-  .caixa-input {
+/* Caixa de entrada de pesquisa */
+.caixa-input {
     width: 583px;
     padding: 10px 14px;
     display: flex;
@@ -76,112 +93,185 @@
     gap: 13px;
     border: 1px solid #dfe1e5;
     border-radius: 100px;
-  }
+}
 
-  .caixa-input:hover,
-  .caixa-input:focus-within {
+.caixa-input:hover,
+.caixa-input:focus-within {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     border-color: transparent;
- }
+}
 
-  
-  .icone-input {
+/* Campo de entrada de pesquisa */
+.input-pesquisa {
+    width: 100%;
+    height: 22px;
+    border: none;
+    outline: none;
+}
+
+/* Ícones dentro da caixa de pesquisa */
+.icone-input {
     width: 20px;
     min-width: 20px;
     fill: #9aa0a6;
-  }
-  
-  .icone-teclado {
+}
+
+.icone-teclado {
     width: 19px;
     cursor: pointer;
-  }
-  
-  .icone-colorido {
+}
+
+.icone-colorido {
     width: 24px;
     cursor: pointer;
-  }
-  
-  header {
+}
+
+/* Caixa que contém múltiplos ícones */
+.caixa-icones {
     display: flex;
     align-items: center;
-    justify-content: end;
-    gap: 15px;
-    padding: 6px 14px;
-  }
-  
-  .botao-entrar {
-    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    background-color: #1a73e8;
-    color: #ffffff;
-    padding: 10px 30px;
-    border-radius: 4px;
-  }
+    gap: 16px;
+}
 
-  .caixa-rodape {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 30px;
-  }
-
-  .caixa-rodape--borda {
-    border-bottom: 1px solid #dadce0;
-  }
-
-  .caixa-links {
-    display: flex;
-    gap: 30px;
-  }
-
-  .botao {
-    padding: 10px 30px;
-    border-radius: 4px;
-    font-size: 14px;
-    background-color: #f8f9fa;
-    border: 1px solid transparent;
-    cursor: pointer;
-  }
-  
-  .botao--entrar:hover {
-    background-color: #1b66c9;
-    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
-      0 1px 2px 0 rgba(60, 64, 67, 0.3);
-    border-color: transparent;
-    text-decoration: none;
-  }
-  
-  .botao--entrar {
-    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    background-color: #1a73e8;
-    color: #ffffff;
-  }
-
-  .botao--entrar:hover {
-    background-color: #1b66c9;
-    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
-      0 1px 2px 0 rgba(60, 64, 67, 0.3);
-    text-decoration: none;
-  }
-
-  .caixa-botoes{
+/* Botões de pesquisa */
+.caixa-botoes {
     display: flex;
     gap: 8px;
-  }
+}
 
-  .caixa-disponibilizado {
+/* Títulos */
+h1 {
+    color: red;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Disponibilização de idiomas */
+.caixa-disponibilizado {
     color: #4d5156;
     font-size: 13px;
     display: flex;
     gap: 5px;
     margin-bottom: 10vh;
-  }
-  
-  .link-disponibilizado {
+}
+
+.link-disponibilizado {
     color: #1a0dab;
-  }
-  
-  
-  footer{
+}
+
+.reference {
+    position: fixed;
+    bottom: 200px; /* Ajusta a distância da parte inferior */
+    left: 60px; /* Ajusta a distância da lateral esquerda */
+    font-weight: 600;
+    color: #1a73e8;
+    font-size: 0.9em; /* Tamanho da fonte para o footer */
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif; /* Garante a consistência da fonte */
+}
+
+/* Rodapé */
+footer {
     background-color: #f2f2f2;
-  }
+}
+
+.caixa-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.caixa-rodape--borda {
+    border-bottom: 1px solid #dadce0;
+}
+
+.caixa-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    /* Ajusta o corpo da página para ocupar toda a altura */
+    body {
+        height: auto;
+    }
+
+    /* Cabeçalho */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* Links do cabeçalho */
+    .link-cabecalho {
+        font-size: 12px;
+    }
+
+    /* Botão 'Entrar' */
+    .botao {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    /* Elemento principal */
+    main {
+        gap: 20px;
+    }
+
+    /* Logo do Google */
+    .logo-google {
+        height: 72px;
+    }
+
+    /* Caixa de entrada de pesquisa */
+    .caixa-input {
+        width: 100%;
+        max-width: 400px;
+        padding: 8px 10px;
+        gap: 10px;
+    }
+
+    /* Caixa de ícones */
+    .caixa-icones {
+        gap: 10px;
+    }
+
+    /* Botões de pesquisa */
+    .caixa-botoes {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    /* Disponibilização de idiomas */
+    .caixa-disponibilizado {
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    /* Rodapé */
+    .caixa-rodape {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caixa-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Ajuste da referência no rodapé */
+    .reference {
+        bottom: 100px;
+        left: 20px;
+        font-size: 0.8em;
+    }
+}
