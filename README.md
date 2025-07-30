@@ -30,7 +30,6 @@ A contribuição principal deste projeto reside na sua função como um recurso 
 ## Sumário (Table of Contents)
 
 1. [Introdução e Motivação](#introdução-e-motivação)
-2. [🎬 Demonstração Visual](#-demonstração-visual)
 3. [Arquitetura do Sistema](#arquitetura-do-sistema)
 4. [Decisões de Design Chave](#decisões-de-design-chave)
 5. [✨ Funcionalidades Detalhadas (com Casos de Uso)](#-funcionalidades-detalhadas-com-casos-de-uso)
@@ -50,12 +49,6 @@ A contribuição principal deste projeto reside na sua função como um recurso 
 A página inicial do Google é um paradigma de design minimalista e funcional, reconhecida globalmente como um padrão de eficiência na interação homem-computador. A motivação para este projeto transcende a simples clonagem de seus elementos visuais. O objetivo central foi utilizar esta interface icônica como uma tela em branco para uma exploração aprofundada e uma demonstração prática das capacidades do CSS3 moderno.
 
 Diferentemente de clones convencionais, que se concentram na replicação estrutural, este projeto investiga a aplicação de técnicas avançadas para enriquecer a experiência do usuário. A proposta de valor reside em demonstrar que é possível criar uma interface web dinâmica, esteticamente sofisticada e interativa, utilizando exclusivamente HTML e CSS. Foram explorados conceitos como glassmorphism através do `backdrop-filter`, animações complexas via `@keyframes`, microinterações com efeitos de glow, e design responsivo através de Flexbox e media queries.
-
-## 🎬 Demonstração Visual
-
-<p align="center">
-  <img src="./Assets/googleclone.gif" alt="Demonstração da Interface Google Clone" width="800">
-</p>
 
 ## Arquitetura do Sistema
 
