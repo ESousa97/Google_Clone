@@ -5,6 +5,7 @@ module.exports = {
     'keyframes-name-pattern': null,
     'selector-class-pattern': null,
     'color-function-notation': null,
+    'color-function-alias-notation': null,
     'alpha-value-notation': null,
     'length-zero-no-unit': null,
     'rule-empty-line-before': null,
