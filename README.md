@@ -4,7 +4,6 @@ Reimplementação estilizada da interface de busca do Google para estudo avança
 
 [![CI](https://github.com/ESousa97/Google_Clone/actions/workflows/ci.yml/badge.svg)](https://github.com/ESousa97/Google_Clone/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/ESousa97/Google_Clone/actions/workflows/codeql.yml/badge.svg)](https://github.com/ESousa97/Google_Clone/actions/workflows/codeql.yml)
-[![Coverage](https://codecov.io/gh/ESousa97/Google_Clone/branch/main/graph/badge.svg)](https://codecov.io/gh/ESousa97/Google_Clone)
 [![CodeFactor](https://www.codefactor.io/repository/github/esousa97/google_clone/badge)](https://www.codefactor.io/repository/github/esousa97/google_clone)
 [![Licença MIT](https://img.shields.io/github/license/ESousa97/Google_Clone)](https://github.com/ESousa97/Google_Clone/blob/main/LICENSE)
 
