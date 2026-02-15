@@ -21,6 +21,14 @@
 
 ---
 
+<div align="center">
+
+<img src="./Assets/googleclone.gif" alt="Demonstração da Interface Google Clone" width="800">
+
+</div>
+
+---
+
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
